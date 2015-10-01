@@ -37,7 +37,7 @@ public class testeRetangulo {
         
         System.out.println("O perimetro é.: " + retangulo.getPerimetro());
         System.out.println("A área é......: " + retangulo.getArea());
-        
+        System.out.println("Fim");
     }
     
 }
