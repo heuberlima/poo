@@ -20,12 +20,12 @@ public class testeRetangulo {
         Retangulo retangulo = new Retangulo();
         
         //Mensagem para o usuario
-        System.out.print("Digite o comprimento: ");
+        System.out.print("Digite o comprimento...: ");
         //Lê o que foi digitado pelo usuario
         //e armazena na variavel local
         double comp = teclado.nextDouble();
         
-        System.out.print("Digite a largura....: ");
+        System.out.print("Digite a largura.......: ");
         double larg = teclado.nextDouble();
         
         //Seta o valor digitado pelo usuário no atributo da classe
@@ -37,7 +37,10 @@ public class testeRetangulo {
         
         System.out.println("O perimetro é.: " + retangulo.getPerimetro());
         System.out.println("A área é......: " + retangulo.getArea());
+        
         System.out.println("Fim");
+        
+        
     }
     
 }
